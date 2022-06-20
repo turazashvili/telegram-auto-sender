@@ -43,9 +43,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-We all know the struggle of getting matches on dating apps. That's not because noone likes you, that's because the market is oversaturated and it's getting harder and harder to actually break through. So I have decided to make a tool, to bit saturate a market little more and potentially gain some success. Don't judge me. pls ;)
-
-The README file is longer than the actual code, but it works just fine :) Enjoy!
+This is a simple PyAUTOGUI based script.
+1) Set UP the script based on instructions below
+2) Open Telegram
+3) Run the script
+4) Enjoy AutoSending of your messages!
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -70,7 +72,7 @@ The README file is longer than the actual code, but it works just fine :) Enjoy!
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/turazashvili/Tinder-AUTO-LIKE.git
+   git clone https://github.com/turazashvili/telegram-auto-sender.git
    ```
 2. Install Python
    Choose latest release for your OS https://www.python.org/downloads/
@@ -81,12 +83,32 @@ The README file is longer than the actual code, but it works just fine :) Enjoy!
       pip install  threading
       pip install  keyboard
      ```
+     
+4. Export database from Telegram
+    1) Click on Settings >>> Advanced >>> Export Telegram Data.
+    2) Select the box “Contacts List” only.
+    3) Scroll down and click on Json format.
+    4) Save the file in the same folder with this project and call it contacts
+    5) Delete everything except List category. So it  looks like on the screenshot below
+      <img width="175" alt="image" src="https://user-images.githubusercontent.com/74835523/174530668-9b959bf3-87bd-4d8a-b8ac-b3e334a2ca5a.png">
 
-4. Run the script
+
+5. Run the script
    ```py
-    python tinder.py
+    python getlist.py
    ```
-5. Enjoy your matches
+   It will generate the file copyToMain.txt with proper formatting to insert it to Array of clients we want to send our message to!
+   <img width="115" alt="image" src="https://user-images.githubusercontent.com/74835523/174530839-7c1a6da1-57da-482d-84ac-5c7d67e8dd9c.png">
+
+6. Insert the names from copyToMain.txt to names array and Message you want to send to your contacts
+<img width="709" alt="image" src="https://user-images.githubusercontent.com/74835523/174532212-2022a550-1124-4117-bb52-eb037024f869.png">
+
+7.Run the script
+   ```py
+    python main.py
+   ```
+8. Open Telegram (you will have 5 seconds before the script starts sending messages
+9. 
 **6. Long Press 'S' key on your keyboard to stop the script!**
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -96,7 +118,7 @@ The README file is longer than the actual code, but it works just fine :) Enjoy!
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-![ezgif-5-e31438436d](https://user-images.githubusercontent.com/74835523/174239875-d72079de-58e0-4715-8b58-b05358301807.gif)
+
 
 
 
@@ -108,10 +130,11 @@ The README file is longer than the actual code, but it works just fine :) Enjoy!
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Add other dating apps to the script
+- [ ] Add other ways to extract data from contacts.
+- [ ] Add more styling to messages.
 
 
-See the [open issues](https://github.com/turazashvili/Tinder-AUTO-LIKE/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/turazashvili/telegram-auto-sender/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -149,7 +172,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Nikoloz Turazashvili - [@axrisi](https://twitter.com/axrisi) - turazashvili@gmail.com
 
-Project Link: [https://github.com/turazashvili/Tinder-AUTO-LIKE/](https://github.com/turazashvili/Tinder-AUTO-LIKE/)
+Project Link: [https://github.com/turazashvili/telegram-auto-sender/](https://github.com/turazashvili/telegram-auto-sender/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -164,16 +187,16 @@ Project Link: [https://github.com/turazashvili/Tinder-AUTO-LIKE/](https://github
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/turazashvili/Tinder-AUTO-LIKE.svg?style=for-the-badge
-[contributors-url]: https://github.com/turazashvili/Tinder-AUTO-LIKE/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/turazashvili/Tinder-AUTO-LIKE.svg?style=for-the-badge
-[forks-url]: https://github.com/turazashvili/Tinder-AUTO-LIKE/network/members
-[stars-shield]: https://img.shields.io/github/stars/turazashvili/Tinder-AUTO-LIKE.svg?style=for-the-badge
-[stars-url]: https://github.com/turazashvili/Tinder-AUTO-LIKE/stargazers
-[issues-shield]: https://img.shields.io/github/issues/turazashvili/Tinder-AUTO-LIKE.svg?style=for-the-badge
-[issues-url]: https://github.com/turazashvili/Tinder-AUTO-LIKE/issues
-[license-shield]: https://img.shields.io/github/license/turazashvili/Tinder-AUTO-LIKE.svg?style=for-the-badge
-[license-url]: https://github.com/turazashvili/Tinder-AUTO-LIKE/blob/main/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/turazashvili/telegram-auto-sender.svg?style=for-the-badge
+[contributors-url]: https://github.com/turazashvili/telegram-auto-sender/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/turazashvili/telegram-auto-sender.svg?style=for-the-badge
+[forks-url]: https://github.com/turazashvili/telegram-auto-sender/network/members
+[stars-shield]: https://img.shields.io/github/stars/turazashvili/telegram-auto-sender.svg?style=for-the-badge
+[stars-url]: https://github.com/turazashvili/telegram-auto-sender/stargazers
+[issues-shield]: https://img.shields.io/github/issues/turazashvili/telegram-auto-sender.svg?style=for-the-badge
+[issues-url]: https://github.com/turazashvili/telegram-auto-sender/issues
+[license-shield]: https://img.shields.io/github/license/turazashvili/telegram-auto-sender.svg?style=for-the-badge
+[license-url]: https://github.com/turazashvili/telegram-auto-sender/blob/main/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/turazashvili
 [product-screenshot]: images/screenshot.png
