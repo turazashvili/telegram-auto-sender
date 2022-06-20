@@ -6,8 +6,8 @@ import pyautogui as p
 import threading
 
 
-clients = ["",""] # put names here
-itr = iter(clients)
+names = ["",""] # put names here
+itr = iter(names)
 itr
 
 sleep(5)
