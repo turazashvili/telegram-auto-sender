@@ -100,7 +100,7 @@ This is a simple PyAUTOGUI based script.
    It will generate the file copyToMain.txt with proper formatting to insert it to Array of clients we want to send our message to!
    <img width="115" alt="image" src="https://user-images.githubusercontent.com/74835523/174530839-7c1a6da1-57da-482d-84ac-5c7d67e8dd9c.png">
 
-6. Insert the names from copyToMain.txt to names array and Message you want to send to your contacts
+6. Insert the names from copyToMain.txt to names array and Message you want to send to your contacts.
 <img width="709" alt="image" src="https://user-images.githubusercontent.com/74835523/174532212-2022a550-1124-4117-bb52-eb037024f869.png">
 
 7.Run the script
@@ -108,8 +108,7 @@ This is a simple PyAUTOGUI based script.
     python main.py
    ```
 8. Open Telegram (you will have 5 seconds before the script starts sending messages
-9. 
-**6. Long Press 'S' key on your keyboard to stop the script!**
+**9. Long Press 'S' key on your keyboard to stop the script!**
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
