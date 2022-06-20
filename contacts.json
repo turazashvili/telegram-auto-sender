@@ -1,0 +1,18 @@
+{
+   "list": [
+      {
+       "id": 11111111111,
+       "category": "people",
+       "type": "user",
+       "name": "John",
+       "rating": 10.939186
+      },
+      {
+       "id": 22222222222,
+       "category": "people",
+       "type": "user",
+       "name": "Emily",
+       "rating": 7.948517
+      }      
+     ]
+    }
