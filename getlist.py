@@ -7,7 +7,7 @@ import json
 from unicodedata import category
   
 # Opening JSON file
-f = open('contacts.json')
+f = open('result.json')
   
 # returns JSON object as 
 # a dictionary
