@@ -107,8 +107,8 @@ This is a simple PyAUTOGUI based script.
    ```py
     python main.py
    ```
-8. Open Telegram (you will have 5 seconds before the script starts sending messages
-**9. Long Press 'S' key on your keyboard to stop the script!**
+8. Open Telegram (you will have 5 seconds before the script starts sending messages.
+9. **Long Press 'S' key on your keyboard to stop the script!**
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
