@@ -15,7 +15,6 @@ data = json.load(f)
   
 # Iterating through the json
 # list
-# s1=data["list"][0:100]["name"]
 for i in data['list'][0:100]:
     text = "'" + i["name"] + "',"
     with open('copyToMain.txt','a',encoding = 'utf-8') as f:
